@@ -6,8 +6,8 @@ Icon:#("UVWUnwrapView", 15)
 (
 	on execute do
 	(
-		szScript =  @"S:\00_Scripts\ShotGrid Tools.ms.ms"
-		try(fileIn(szScript)) catch(messageBox "Script not found! Download WayFair Setup Tools again!" title: "Warning!")
+		szScript =  @"S:\00_Scripts\ShotGrid Tools.ms"
+		try(fileIn(szScript)) catch(messageBox "Script not found! Download ShotGrid Tools again!" title: "Warning!")
 	)
 )
 
